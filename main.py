@@ -3,7 +3,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import fitz
 
-bot = telebot.TeleBot("6487860967:AAFcty0VPPuJg4ugy6HWXmJRXmtybGXvPY4", parse_mode=None)
+bot = telebot.TeleBot("...", parse_mode=None)
 semSubjects = ["cb_calc", "cb_physics", "cb_CoV", "cb_NM", "cb_complex", "cb_diff"]
 
 def linkToFile(subject, i):
